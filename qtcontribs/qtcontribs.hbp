@@ -8,47 +8,48 @@
 #-vcshead=hbide/hbide_v.ch
 
 #    HWGDebug
-debug/hwgdebug.hbp
+##FP debug/hwgdebug.hbp
 
 #    Qt Modules - mandatory
 #
-hbqt/qtcore/hbqtcore.hbp
-hbqt/qtgui/hbqtgui.hbp
-hbqt/qtnetwork/hbqtnetwork.hbp
+##fp hbqt/qtcore/hbqtcore.hbp
+##fp hbqt/qtgui/hbqtgui.hbp
+##fp hbqt/qtnetwork/hbqtnetwork.hbp
 
 #    Uncomment whatever module is not required
 #
-hbqt/qtdeclarative/hbqtdeclarative.hbp
-hbqt/qtmultimedia/hbqtmultimedia.hbp
-hbqt/qtmultimediawidgets/hbqtmultimediawidgets.hbp
-hbqt/qtopengl/hbqtopengl.hbp
-hbqt/qtscript/hbqtscript.hbp
-hbqt/qtsql/hbqtsql.hbp
-hbqt/qtsvg/hbqtsvg.hbp
-hbqt/qtxml/hbqtxml.hbp
-hbqt/qtpositioning/hbqtpositioning.hbp
-hbqt/qtwebsockets/hbqtwebsockets.hbp
-hbqt/qtbluetooth/hbqtbluetooth.hbp
-hbqt/qtqml/hbqtqml.hbp
-hbqt/qtquick/hbqtquick.hbp
-hbqt/qtsensors/hbqtsensors.hbp
-hbqt/qtwebkit/hbqtwebkit.hbp
-hbqt/qtdesigner/hbqtdesigner.hbp
-hbqt/qzxing/hbqtzxing.hbp
+##fp hbqt/qtdeclarative/hbqtdeclarative.hbp
+##fp hbqt/qtmultimedia/hbqtmultimedia.hbp
+##fp hbqt/qtmultimediawidgets/hbqtmultimediawidgets.hbp
+##fp hbqt/qtopengl/hbqtopengl.hbp
+##fp hbqt/qtscript/hbqtscript.hbp
+##fp hbqt/qtsql/hbqtsql.hbp
+##fp hbqt/qtsvg/hbqtsvg.hbp
+##fp hbqt/qtxml/hbqtxml.hbp
+##fp hbqt/qtpositioning/hbqtpositioning.hbp
+##fp hbqt/qtwebsockets/hbqtwebsockets.hbp
+##fp hbqt/qtbluetooth/hbqtbluetooth.hbp
+##fp hbqt/qtqml/hbqtqml.hbp
+##fp hbqt/qtquick/hbqtquick.hbp
+##fp hbqt/qtsensors/hbqtsensors.hbp
+##fp hbqt/qtwebkit/hbqtwebkit.hbp
+##fp hbqt/qtdesigner/hbqtdesigner.hbp
+##fp hbqt/qzxing/hbqtzxing.hbp
 
 
 #    Qt Based Widgets
-hbqtwidgets/hbqtwidgets.hbp
+##fp hbqtwidgets/hbqtwidgets.hbp
 
 #    Qt based Xbase++ compliant Class Framework
 #
-hbxbp/hbxbp.hbp
+##fp hbxbp/hbxbp.hbp
 
 #    Qt based Harbour IDE
 #
-hbide/hbide.hbp
+##fp hbide/hbide.hbp
 
 #    Qt based Harbour DBU
 #
-hbdbu/hbdbu.hbp
+##fp hbdbu/hbdbu.hbp
 
+hbqt/qscintilla/hbqscintilla.hbp
