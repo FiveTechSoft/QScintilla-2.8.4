@@ -36,4 +36,4 @@ set HB_USER_LDFLAGS=%HB_USER_LDFLAGS% --sysroot=%SYSROOT% -lm
 set HB_USER_CFLAGS=%HB_USER_CFLAGS% --sysroot=%SYSROOT% -I%NDK%\sources\cxx-stl\gnu-libstdc++\4.8\include -I%NDK%\sources\cxx-stl\gnu-libstdc++\4.8\libs\armeabi-v7a\include -I%NDK%\platforms\android-9\arch-arm\usr\include
 
 del hbqt\.hbmk\*.* -s
-hbmk2 qtcontribs.hbp
+hbmk2 qtcontribs.hbp -I..\QScintilla-gpl-2.8.4\Qt4Qt5
