@@ -1,0 +1,32 @@
+#
+# $Id: hwgdebug.hbp 392 2015-01-23 21:14:12Z bedipritpal $
+#
+
+-3rd=hbide_version=1.0
+-3rd=hbide_type=Lib
+-3rd=hbide_title=hwgdebug
+-3rd=hbide_output=hwgdebug
+
+{android|darwin}-stop='HwgDebug is not available for Android/OSX...'
+
+-inc
+
+-hblib
+
+-n 
+-q0 
+-w3
+-es2
+
+
+-o../../../lib/${hb_plat}/${hb_comp}${hb_build}/${hb_name}
+-workdir=${hb_work}/${hb_plat}/${hb_comp}${hb_build}/${hb_targetname}
+
+-instpath=${HB_LIB}/
+
+-cflag=-DHWG_USE_POINTER_ITEM
+
+*.c
+*.prg
+
+ 

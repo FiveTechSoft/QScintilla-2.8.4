@@ -1,0 +1,25 @@
+#
+# $Id: hbnetioq.hbp 392 2015-01-23 21:14:12Z bedipritpal $
+#
+
+-mt
+
+-w3 -es2 -l
+
+-o../../lib/${hb_plat}/${hb_comp}${hb_build}/${hb_targetname}
+-workdir=${hb_work}/${hb_plat}/${hb_comp}${hb_build}/${hb_targetname}
+
+-icon={allwin}harb_win.ico
+-icon={os2}harb_os2.ico
+
+hbxbp.hbc
+hbnetio.hbc
+
+netiosrq.prg
+netiosrq.qrc
+
+manageips.ui
+
+# Always build in shared mode for these platforms because the
+# tool is included in std distro and we want to minimize its size.
+{_HB_BUILD_&(!(HB_BUILD_DYN='no')&(win|wce|os2))}-shared
