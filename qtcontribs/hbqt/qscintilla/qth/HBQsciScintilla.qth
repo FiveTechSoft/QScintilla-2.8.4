@@ -1,5 +1,5 @@
 /*
- * $Id: HBQsciScintilla.qth 34 2012-10-13 21:57:41Z bedipritpal $
+ * $Id$
  */
 
 /*
@@ -57,13 +57,9 @@
 <CLASS>
 QObject  = Yes
 Inherits = QsciScintilla
-Type     =
-New      =
-Folder   = qscintilla
 </CLASS>
 
 <CODE>
-
 #include "hbqt_hbqsciscintilla.h"
 
 

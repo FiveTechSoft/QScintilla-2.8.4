@@ -1,5 +1,5 @@
 /*
- * $Id: QsciCommandSet.qth 34 2012-10-13 21:57:41Z bedipritpal $
+ * $Id$
  */
 
 /*
@@ -14,20 +14,12 @@
 <CLASS>
 QObject  = no
 Inherits =
-Type     =
-New      =
-Folder   = hbqscintilla
-Constructor = no
+Destructor = no
 </CLASS>
 
-<SUBCLASS>
-</SUBCLASS>
-
-<DOC>
-</DOC>
-
 <CODE>
-#include <qscicommandset.h>
+#include <qsci/qscicommandset.h>
+#include <QtCore/QList>
 
 
 /*
@@ -46,7 +38,7 @@ HB_FUNC( QT_QSCICOMMANDSET )
 <PROTOS>
 bool readSettings (QSettings &qs, const char *prefix="/Scintilla")
 bool writeSettings (QSettings &qs, const char *prefix="/Scintilla")
-QList< QsciCommand * > & commands ()
+##FP QList< QsciCommand * > & commands ()
 void clearKeys ()
 void clearAlternateKeys ()
 </PROTOS>

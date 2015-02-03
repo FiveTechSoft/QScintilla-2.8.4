@@ -1,5 +1,5 @@
 /*
- * $Id: QsciLexerFlagship.qth 34 2012-10-13 21:57:41Z bedipritpal $
+ * $Id$
  */
 
 /*
@@ -12,21 +12,13 @@
  */
 
 <CLASS>
-QObject  =
 Inherits = QsciLexer
-Type     =
-New      =
 Folder   = hbqscintilla
 </CLASS>
 
-<SUBCLASS>
-</SUBCLASS>
-
-<DOC>
-</DOC>
-
 <CODE>
-#include <qscilexerflagship.h>
+#include <qsci/qscilexerflagship.h>
+#include <QtCore/QStringList>
 
 
 /*

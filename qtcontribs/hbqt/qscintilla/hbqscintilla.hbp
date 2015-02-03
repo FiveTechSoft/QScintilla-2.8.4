@@ -1,10 +1,15 @@
 #
-# $Id: hbqscintilla.hbp 34 2012-10-13 21:57:41Z bedipritpal $
+# $Id$
 #
 
 ../hbqt_common.hbm
 
 hbqscintilla.hbm
+
+-IC:/qt/5.4/mingw491_32/include/QtPrintSupport 
+-IC:/qt/5.4/mingw491_32/include/QtWidgets 
+-IC:/qt/5.4/mingw491_32/include/QtGui 
+-IC:/qt/5.4/mingw491_32/include/QtCore
 
 -instfile=inc:hbqscintilla.hbx
 

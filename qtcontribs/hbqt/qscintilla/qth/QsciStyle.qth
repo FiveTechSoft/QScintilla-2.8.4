@@ -1,5 +1,5 @@
 /*
- * $Id: QsciStyle.qth 34 2012-10-13 21:57:41Z bedipritpal $
+ * $Id$
  */
 
 /*
@@ -14,19 +14,11 @@
 <CLASS>
 QObject  =
 Inherits =
-Type     =
-New      =
-Folder   = hbqscintilla
 </CLASS>
 
-<SUBCLASS>
-</SUBCLASS>
-
-<DOC>
-</DOC>
-
 <CODE>
-#include <qscistyle.h>
+#include <qsci/qscistyle.h>
+#include <QtCore/QStringList>
 
 /*
  * QsciStyle (int style=-1)
@@ -35,7 +27,7 @@ Folder   = hbqscintilla
  */
 HB_FUNC( QT_QSCISTYLE )
 {
-   if( HB_ISNUMERIC( 1 ) )
+   if( HB_ISNUM( 1 ) )
    {
       __HB_RETPTRGC__( new QsciStyle( hb_parni( 1 ) ) );
    }

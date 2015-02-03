@@ -1,5 +1,5 @@
 #
-# $Id: filelist.hbm 34 2012-10-13 21:57:41Z bedipritpal $
+# $Id$
 #
 
 -pflag=-qtver=0x040500
@@ -14,8 +14,8 @@ QsciCommand.qth
 QsciCommandSet.qth
 QsciDocument.qth
 QsciLexer.qth
-QsciLexerCPP.qth
-QsciLexerFlagship.qth
+## QsciLexerCPP.qth
+## QsciLexerFlagship.qth
 QsciScintilla.qth
 QsciStyle.qth
 QsciStyledText.qth

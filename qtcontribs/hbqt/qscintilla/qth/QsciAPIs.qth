@@ -1,5 +1,5 @@
 /*
- * $Id: QsciAPIs.qth 34 2012-10-13 21:57:41Z bedipritpal $
+ * $Id$
  */
 
 /*
@@ -12,21 +12,12 @@
  */
 
 <CLASS>
-QObject  =
 Inherits = QsciAbstractAPIs
-Type     =
-New      =
-Folder   = hbqscintilla
 </CLASS>
 
-<SUBCLASS>
-</SUBCLASS>
-
-<DOC>
-</DOC>
-
 <CODE>
-#include <qsciapis.h>
+#include <qsci/qsciapis.h>
+#include <QtCore/QStringList>
 
 
 /*
